@@ -33,3 +33,6 @@
 
 # 実行ファイル
 **/*.out
+
+# VSCode
+.vscode/
