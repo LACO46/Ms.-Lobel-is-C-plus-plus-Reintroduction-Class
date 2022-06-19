@@ -6,3 +6,10 @@
     - `""`の場合charもしくはchar[]となる
     - `''`の場合char*となる
   - 特定の文字列が発見されなかった場合`NULL`を返す
+    ```
+    char *word1 = strrchr(str1, 'l');
+    char *word2 = strrchr(str1, 'b');
+
+    strchr(str1, 'l') = llo world
+    strchr(str1, 'b') = 
+    ```
