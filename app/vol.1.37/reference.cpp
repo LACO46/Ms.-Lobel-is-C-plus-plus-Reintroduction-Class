@@ -10,13 +10,18 @@ int main()
     // "r"と"a"は同じになる
     int &r = a;
 
+    // a値を代入
     a = 0;
+    cout << "updated a" << endl;
     cout << " a = " << a << endl;
     cout << " r = " << r << endl;
+    cout << endl;
 
-    a = 100;
+    r = 100;
+    cout << "updated r" << endl;
     cout << " a = " << a << endl;
     cout << " r = " << r << endl;
+    cout << endl;
 
     cout << "&a = " << &a << endl;
     cout << "&r = " << &r << endl;
